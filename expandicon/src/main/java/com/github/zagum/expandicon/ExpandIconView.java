@@ -304,6 +304,9 @@ public class ExpandIconView extends View {
 		}
 	}
 
+	public void setColor(int color) {
+		paint.setColor(color);
+	}
 	private void updateColor(@NonNull ArgbEvaluator colorEvaluator) {
 		float fraction;
 		int colorFrom;
