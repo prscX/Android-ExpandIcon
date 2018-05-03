@@ -227,7 +227,7 @@ public class ExpandIconView extends View {
 	}
 
 	@Override
-	private void onSizeChanged(int width, int height, int oldWidth, int oldHeight) {
+	public void onSizeChanged(int width, int height, int oldWidth, int oldHeight) {
 		super.onSizeChanged(width, height, oldWidth, oldHeight);
 		calculateArrowMetrics(width, height);
 		updateArrowPath();
